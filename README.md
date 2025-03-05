@@ -1,48 +1,44 @@
-# Journal de projet - [Nom du projet]
+# Journal de projet - [SAE Firewall]
+
+## Equipe : 
+MOREAU Morgan
+LIEBART Corentin
 
 ## Description du projet
 
-Une brève description de ton projet : quel est son but, quelles sont ses fonctionnalités principales, etc. Par exemple :
-> Ce projet a pour objectif de créer une application de gestion de tâches, permettant aux utilisateurs de créer, organiser et suivre leurs tâches de manière simple et intuitive.
-
----
+Ce projet vise la mise en place d'un firewall et le durcissement de la sécurité d'un serveur web sous Nginx. L'objectif est d'étudier et d'expérimenter des solutions de protection contre les attaques réseau en utilisant des outils tels que iptables, ufw, et divers outils de test de pénétration.
 
 ## Objectifs
 
-- [ ] Objectif 1 : Décrire le premier objectif de ton projet.
-- [ ] Objectif 2 : Décrire un autre objectif.
-- [ ] Objectif 3 : Ajouter d'autres objectifs à réaliser.
-
----
+- [ ] Mettre en place un firewall et démontrer son efficacité.
+- [ ] Sécuriser un serveur web Nginx et réduire sa surface d'attaque.
+- [ ] Mettre en place une DMZ pour protéger le réseau local.
+- [ ] Tester les vulnérabilités et documenter les améliorations de sécurité.
+- [ ] Automatiser le déploiement des machines virtuelles et des configurations.
 
 ## Journal des progrès
 
 ### Séance 1 - [04/03/2025]
 
 - **Ce qui a été accompli** :
-  
+  - Lecture et analyse du cahier des charges.
+  - Recherche documentaire sur iptables, ufw, et Nginx.
+  - Création du dépot Github.
+
 ---
+
 ### Séance 2 - [05/03/2025]
 
 - **Ce qui a été accompli** :
-  - Implémentation de la fonctionnalité d'ajout de tâches.
-  - Tests unitaires pour les fonctions principales.
-  
+  - 
+ 
 - **Problèmes rencontrés** :
-  - Bug dans l'affichage des tâches ajoutées.
-  
+  - 
+    
 - **Solutions apportées** :
-  - Correction du bug en réorganisant le code de l'interface utilisateur.
+  - 
 
 - **Tâches à réaliser** :
-  - Implémenter la fonctionnalité de suppression de tâches.
-  - Ajouter un système de notifications.
+  - 
 
 ---
-
-## Installation
-
-Explique comment installer ton projet, par exemple :
-1. Clone le dépôt :
-   ```bash
-   git clone https://github.com/ton_utilisateur/nom_du_projet.git
