@@ -33,6 +33,8 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
   - Prise en main de Vagrant pour créer des machines virtuelles Debian.
  
 - **Problèmes rencontrés** :
+  - Difficultés avec les modules kernel non chargés.
+  - Difficultés avec les versions Virtualbox.
   - Difficultés avec la configuration réseau des VM.
     
 - **Solutions apportées** :
