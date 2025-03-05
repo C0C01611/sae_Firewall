@@ -30,15 +30,16 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
 ### Séance 2 - [05/03/2025]
 
 - **Ce qui a été accompli** :
-  - 
+  - Prise en main de Vagrant pour créer des machines virtuelles Debian.
  
 - **Problèmes rencontrés** :
-  - 
+  - Difficultés avec la configuration réseau des VM.
     
 - **Solutions apportées** :
-  - 
+  - Ajustement du Vagrantfile pour une configuration stable.
 
 - **Tâches à réaliser** :
-  - 
+  - Configurer le serveur web Nginx.
+  - Tester l'accès depuis la machine client.
 
 ---
