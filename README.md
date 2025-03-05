@@ -1,6 +1,6 @@
 # Journal de projet - [SAE Firewall]
 
-## Equipe : 
+## Equipe
 - MOREAU Morgan
 - LIEBART Corentin
 
