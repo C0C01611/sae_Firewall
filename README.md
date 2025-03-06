@@ -49,15 +49,14 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
 ### Séance 3 - [06/03/2025]
 
 - **Ce qui a été accompli** :
-  - 
+  - Mise en place et configuration de la DMZ.
+  - Tests et validation des accès réseau (HTTP et SSH).
  
 - **Problèmes rencontrés** :
-  - 
+  - Problèmes de connexion SSH depuis le client.
     
 - **Solutions apportées** :
-  - 
+  - Vérification des règles UFW et correction des permissions des clés SSH.
 
-- **Tâches à réaliser** :
-  - 
 
 ---
