@@ -45,6 +45,7 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
   - Tester l'accès depuis la machine client.
 
 ---
+
 ### Séance 3 - [06/03/2025]
 
 - **Ce qui a été accompli** :
