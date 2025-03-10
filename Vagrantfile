@@ -13,6 +13,8 @@ Vagrant.configure("2") do |config|
       vb.cpus = 2
     end
 
+    server.vm.synced_folder "./scripts", "/home/vagrant/scripts"
+
     server.vm.provision "shell", inline: <<-SHELL
       echo "🔹 Installation du serveur..."
       sudo apt update
@@ -35,6 +37,8 @@ Vagrant.configure("2") do |config|
       vb.memory = "1024"
       vb.cpus = 1
     end
+
+    client.vm.synced_folder "./scripts", "/home/vagrant/scripts"
 
     client.vm.provision "shell", inline: <<-SHELL
       echo "🔹 Installation du client..."

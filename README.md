@@ -1,5 +1,15 @@
 # Journal de projet - [SAE Firewall]
 
+/sae_firewall
+  |- Vagrantfile
+  |- README.md
+  |- scripts/
+       |- firewall_on.sh
+       |- firewall_off.sh
+       |- test_access.sh
+       |- test_access_externe.sh
+
+
 ## Equipe
 - MOREAU Morgan
 - LIEBART Corentin
@@ -54,9 +64,20 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
  
 - **Problèmes rencontrés** :
   - Problèmes de connexion SSH depuis le client.
+
+---
+
+### Séance 4 - [10/03/2025]
+
+- **Ce qui a été accompli** :
+  - Mise en place et configuration de ufw.
+  - Création des scripts pour : démarrer le firewall, pour l'arreter et pour tester son fonctionnement.
+ 
+- **Problèmes rencontrés** :
+  - Problèmes de connexion SSH depuis le client.
     
 - **Solutions apportées** :
-  - Vérification des règles UFW et correction des permissions des clés SSH.
+  - Ajout de la clé ssh du client sur le serveur 
 
 
 ---
