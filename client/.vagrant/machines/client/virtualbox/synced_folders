@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/scripts":{"guestpath":"/home/vagrant/scripts","hostpath":"/root/sae_Firewall/client/scripts","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/root/sae_Firewall/client","disabled":false,"__vagrantfile":true}}}

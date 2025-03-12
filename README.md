@@ -1,13 +1,15 @@
 # Journal de projet - [SAE Firewall]
 
 /sae_firewall
-  |- Vagrantfile
-  |- README.md
-  |- scripts/
-       |- firewall_on.sh
-       |- firewall_off.sh
-       |- test_access.sh
-       |- test_access_externe.sh
+├── vagrant.sh
+|
+├── server/
+│   ├── Vagrantfile
+│   └── scripts/
+|
+└── client/
+    ├── Vagrantfile
+    └── scripts/
 
 
 ## Equipe
@@ -79,5 +81,15 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
 - **Solutions apportées** :
   - Ajout de la clé ssh du client sur le serveur 
 
+---
 
+### Séance 5/6 - [11-12/03/2025]
+
+- **Ce qui a été accompli** :
+  - Changement du Vagrantfile pour en faire 2
+  - Création de scripts pour automatiser le configuration du serveur et les différentes connections en ssh.
+ 
+- **Problèmes rencontrés** :
+  - Problèmes de connexion SSH depuis le client.
+    
 ---
