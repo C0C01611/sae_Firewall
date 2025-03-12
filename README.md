@@ -1,5 +1,6 @@
 # Journal de projet - [SAE Firewall]
 
+```
 /sae_firewall
 ├── vagrant.sh
 |
@@ -9,7 +10,8 @@
 |
 └── client/
     ├── Vagrantfile
-    └── scripts/
+    └── scripts/ 
+```
 
 
 ## Equipe
