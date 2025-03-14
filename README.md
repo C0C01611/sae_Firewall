@@ -3,14 +3,22 @@
 ```
 /sae_firewall
 ├── vagrant.sh
+├── connection.sh
 |
 ├── server/
 │   ├── Vagrantfile
 │   └── scripts/
+|		├── firewall_off.sh
+|		├── firewall_on.sh
+|		└──	test_access.sh
 |
 └── client/
     ├── Vagrantfile
-    └── scripts/ 
+    └── scripts/
+		├──	connection_server.sh
+		├──	genkey.sh
+		└──	test_access.sh 
+
 ```
 
 
