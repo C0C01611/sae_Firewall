@@ -1,1 +1,27 @@
+ip tables :
+# 🟢 1. Autoriser HTTP depuis l'extérieur vers la DMZ (serveur web)
+iptables -A INPUT -p tcp --dport 80 -i eth0 -j ACCEPT
+
+# 🟢 2. Autoriser le client LAN à accéder à SSH et HTTP du serveur DMZ
+iptables -A INPUT -p tcp -s 192.168.56.2 --dport 22 -i eth1 -j ACCEPT
+iptables -A INPUT -p tcp -s 192.168.56.2 --dport 80 -i eth1 -j ACCEPT
+
+# 🔴 3. Interdire SSH depuis Internet vers la DMZ
+iptables -A INPUT -p tcp --dport 22 -i eth0 -j DROP
+
+# 🔴 4. Bloquer toute connexion initiée par le serveur vers le client
+iptables -A OUTPUT -p all -d 192.168.56.0/24 -j DROP
+
+
+Interfaces réseau :
+# Interface eth0 (Internet)
+auto eth0
+iface eth0 inet dhcp
+
+# Interface eth1 (DMZ)
+auto eth1
+iface eth1 inet static
+    address 192.168.100.2
+    netmask 255.255.255.0
+    gateway 192.168.100.1
 
