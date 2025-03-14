@@ -87,7 +87,7 @@ echo "Configuration SSH terminée sur le serveur."
 
     echo "La clé SSH du client a été ajoutée avec succès au serveur."
     echo "Vous pouvez maintenant vous connecter du client vers le serveur avec :"
-    echo "ssh vagrant@192.168.56.10"
+    echo "ssh 192.168.56.10"
     ;;
   halt)
     echo "Arrêt des machines..."
