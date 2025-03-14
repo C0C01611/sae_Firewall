@@ -19,9 +19,6 @@ Vagrant.configure("2") do |config|
       echo "Installation du serveur..."
       sudo apt update
       sudo apt install -y nginx ufw
-      sudo ufw allow 80
-      sudo ufw allow 443
-      sudo ufw enable
       sudo systemctl start nginx
       echo "Serveur prêt avec Nginx et UFW !"
     SHELL
