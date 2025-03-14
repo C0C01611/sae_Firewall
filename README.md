@@ -10,14 +10,14 @@
 │   └── scripts/
 |		├── firewall_off.sh
 |		├── firewall_on.sh
-|		└──	test_access.sh
+|		└── test_access.sh
 |
 └── client/
     ├── Vagrantfile
     └── scripts/
-		├──	connection_server.sh
-		├──	genkey.sh
-		└──	test_access.sh 
+		├── connection_server.sh
+		├── genkey.sh
+		└── test_access.sh 
 
 ```
 
@@ -102,4 +102,13 @@ Ce projet vise la mise en place d'un firewall et le durcissement de la sécurit�
 - **Problèmes rencontrés** :
   - Problèmes de connexion SSH depuis le client.
     
+---
+
+### Séance 7 - [13/03/2025]
+
+- **Ce qui a été accompli** :
+  - Résolution de tous les problèmes.
+  - Création de scripts afin d'automatiser la conf du serveur, la génération des clés ssh.
+  - Création de scripts de test afin de tester l'intrusion dans notre réseau
+
 ---
