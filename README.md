@@ -20,6 +20,7 @@
 
 ```
 
+```
 Pour lancer les vm : Se placer dans le dossier sae_firewall/ ;
 		     Éxécuter la commande ./vagrant.sh up ;
        		     Cette dernière génère les clés ssh et fais automatise la configuarion du serveur ;
@@ -32,7 +33,7 @@ Pour lancer les vm : Se placer dans le dossier sae_firewall/ ;
 	     	     Une fois fini, on fait exit, puis exit, puis ./vagrant.sh destroy ;
 	    	     Si l'on veut redémarrer les machines pour tester : ./vagrant.sh reload
 	   	     !!! Si l'on fait ./ vagrant.sh destroy, il faudra refaire cette configuration !!!
-       		     
+```	     
 
 ## Equipe
 - MOREAU Morgan
