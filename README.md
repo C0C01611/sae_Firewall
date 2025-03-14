@@ -22,18 +22,18 @@
 
 
 Pour lancer les vm : \
-		      Se placer dans le dossier sae_firewall/ ; \
-		      Éxécuter la commande ./vagrant.sh up ; \
+		      Se placer dans le dossier ```sae_firewall/``` ; \
+		      Éxécuter la commande ```./vagrant.sh up``` ; \
        		      Cette dernière génère les clés ssh et fais automatise la configuarion du serveur ; \
-	      	      Ensuite pour se connecter au serveur, éxécuter ./connection.sh server (pour le client ./connection.sh client) ; \
-	     	      Quand vous êtes connecté au serveur, éxécuter la commmande ./firewall_on.sh afin de lancer les règles de firewall ; \
-	    	      Si on veut enelever ces règles, ./firewall_off.sh ; \
-		      Se connecter au client : exit. Puis ./connection.sh client ; \
-        	      Pour éxécuter le script de test de connectivité : ./test_access.sh ; \
-	      	      Si l'on veut se connecter au serveur depuis le client : ./connection_server.sh ; \
-	     	      Une fois fini, on fait exit, puis exit, puis ./vagrant.sh destroy ; \
-	    	      Si l'on veut redémarrer les machines pour tester : ./vagrant.sh reload \
-	   	      !!! Si l'on fait ./ vagrant.sh destroy, il faudra refaire cette configuration !!! 
+	      	      Ensuite pour se connecter au serveur, éxécuter ```./connection.sh server``` (pour le client ```./connection.sh client```) ; \
+	     	      Quand vous êtes connecté au serveur, éxécuter la commmande ```./firewall_on.sh``` afin de lancer les règles de firewall ; \
+	    	      Si on veut enelever ces règles, ```./firewall_off.sh``` ; \
+		      Se connecter au client : exit. Puis ```./connection.sh client``` ; \
+        	      Pour éxécuter le script de test de connectivité : ```./test_access.sh``` ; \
+	      	      Si l'on veut se connecter au serveur depuis le client : ```./connection_server.sh ```; \
+	     	      Une fois fini, on fait exit, puis exit, puis ```./vagrant.sh destroy``` ; \
+	    	      Si l'on veut redémarrer les machines pour tester : ```./vagrant.sh reload``` \
+	   	      !!! Si l'on fait ```./ vagrant.sh destroy```, il faudra refaire cette configuration !!! 
 	     
 
 ## Equipe
